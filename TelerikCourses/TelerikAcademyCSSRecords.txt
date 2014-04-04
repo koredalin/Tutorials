@@ -9,3 +9,6 @@ Includes all the selections ", " - .green, #dog, p {color: green;}
 
 // Structural Pseudo classes
 http://w3.org/TR/css3-selectors/#structural-pseudos
+
+// CSS possibilities
+http://enrappture.com/superman/
