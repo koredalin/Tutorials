@@ -1,0 +1,11 @@
+Telerik academy courses
+Records
+
+Comments: /* alabala  */
+
+Main child selection ">" - p > ul
+All childs selection " " - p ul
+Includes all the selections ", " - .green, #dog, p {color: green;}
+
+// Structural Pseudo classes
+http://w3.org/TR/css3-selectors/#structural-pseudos
