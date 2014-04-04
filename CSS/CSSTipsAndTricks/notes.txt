@@ -3,3 +3,7 @@ Notes
 
 Цел: Да си намеря работа.
 
+Lesson 5 - Configuring the placeholder.
+Lesson 6 - Configuring border on focus.
+a:focus {outline: none;}
+Lesson 7 - 
