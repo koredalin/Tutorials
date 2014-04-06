@@ -53,11 +53,11 @@ return array(
 		),
 
 		'mysql' => array(
-			'driver'    => 'mysql',
+			'driver'    => 'pdo',
 			'host'      => 'localhost',
-			'database'  => 'database',
-			'username'  => 'root',
-			'password'  => '',
+			'database'  => 'laravel3',
+			'username'  => 'laravel_student',
+			'password'  => 'laravel_student',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
