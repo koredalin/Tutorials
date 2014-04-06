@@ -1,0 +1,23 @@
+1. Меню за контрол
+2. Проверка дали дадена пионка може да бъде преместена.
+3. Изчисления на преместването.
+4. Проверка и действия при колизии.
+
+
+
+Пионките знаят само номера на позицията си.
+Позициите имат линкове към пионките.
+
+private function defineGameConstants(){
+    // definning important positions
+    $this->game_const=array(
+        'road_pos_count'=>56,
+        'col0home1'=>63, 'col1home1'=>73, 'col2home1'=>83, 'col3home1'=>93,
+        'col0start'=>1, 'col1start'=>15, 'col2start'=>29, 'col3start'=>43, 
+        'col0exit'=>56, 'col1exit'=>14, 'col2exit'=>28, 'col3exit'=>42, 
+        'col0final'=>57, 'col1final'=>67, 'col2final'=>77, 'col3final'=>87, 
+        'col0grfinal'=>62, 'col1grfinal'=>72, 'col2grfinal'=>82, 'col3grfinal'=>92, 
+        'col0homelast'=>66, 'col1homelast'=>76, 'col2homelast'=>86, 'col3homelast'=>96,
+        'col0jump'=>0, 'col1jump'=>52, 'col2jump'=>48, 'col3jump'=>44
+        );
+  }
