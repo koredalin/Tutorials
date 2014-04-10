@@ -11,12 +11,25 @@
 |
 */
 
+Route::get('/', array(
+    'as' => 'home',
+    'uses' => 'HomeController@home'
+));
+
+
+
+
+
+/*
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('home.index');
 });
 
 Route::get('about', function()
 {
-	return View::make('home.about');
+        $data=array('gorivo'=>'gaz');
+	return View::make('home.about', $data);
+        // return View::make('home.about')->with('gorivo', $gorivo);
 });
+/**/

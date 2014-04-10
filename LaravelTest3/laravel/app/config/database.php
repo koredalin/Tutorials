@@ -53,7 +53,7 @@ return array(
 		),
 
 		'mysql' => array(
-			'driver'    => 'pdo',
+			'driver'    => 'mysql',
 			'host'      => 'localhost',
 			'database'  => 'laravel3',
 			'username'  => 'laravel_student',
