@@ -16,20 +16,24 @@ class HomeController extends BaseController {
 	*/
 
        public function home() {
+           /*
            Mail::send('emails.auth.test', array('name'=>'Ivan'), function($message) {
                $message->to('koredalin@gmail.com', 'Hristo Hristov')->subject('Test email.');
                
            });
+           /**/
            
            
-           
+           return 'HomeController@home';
 //           $user=User::find(1)->username;
 //           echo $user;
            // echo '<pre>', print_r($user), '</pre>';
-           return View::make('home');
+           // return View::make('home');
        }
     
-    
+       public function index() {
+           return 'HomeController@index';
+       }
     
     
     

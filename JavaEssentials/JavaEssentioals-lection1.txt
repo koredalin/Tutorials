@@ -1,0 +1,10 @@
+Основи на Java
+1. Created 1991 year by Sun Microsystems.
+1.1. First name "Oak".
+// С++ за малки устроиства, контролери
+1.2. Creator James Gosling http://en.wikipedia.org/wiki/James_Gosling
+
+1992 Пуснат на PDA Star7 // Смартфон без телефонни функции.
+
+1994 Стартира разработката на аплети и името на езика е променено на Java.
+

@@ -174,5 +174,7 @@ return array(
 		'View'            => 'Illuminate\Support\Facades\View',
 
 	),
+        'Barryvdh\Debugbar\ServiceProvider',
+        'Debugbar' => 'Barryvdh\Debugbar\Facade',
 
 );

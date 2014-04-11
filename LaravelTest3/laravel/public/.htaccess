@@ -3,13 +3,25 @@
         Options -MultiViews
     </IfModule>
 
-    RewriteEngine On
+#    Options +FollowSymLinks
+    #RewriteEngine On
+#    RewriteBase /Tutorials/LaravelTest3/laravel/public
 
     # Redirect Trailing Slashes...
-    RewriteRule ^(.*)/$ /$1 [L,R=301]
+   # RewriteRule ^(.*)/$ /$1 [L,R=301]
 
     # Handle Front Controller...
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ index.php [L]
+  #  RewriteCond %{REQUEST_FILENAME} !-d
+   # RewriteCond %{REQUEST_FILENAME} !-f
+   # RewriteRule ^ index.php [L]
+
+Options +FollowSymLinks
+RewriteEngine On
+# RewriteBase /Tutorials/LaravelTest3/laravel/public/
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
 </IfModule>
